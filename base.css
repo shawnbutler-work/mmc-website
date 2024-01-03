@@ -1,0 +1,123 @@
+img#logo {
+	border: 3px solid black;
+	border-radius: 10%;
+	width: 40vh;
+}
+.phrase {
+	background-image: url("pictures/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white; 
+	font-size: 8vh; 
+	padding-top: 3vh; 
+	padding-bottom: 30vh; 
+	text-align: left;
+}
+.link {
+	color: black;
+	text-decoration: none;
+}
+.link:hover {
+	color: gold;
+	animation: scale 1s forwards;
+}
+.contact {
+	margin-left: 5vh;
+	text-align: left;
+	font-size: 130%;
+	color: black;
+}
+.content-block {
+	font-family: Arial;
+	color: black;
+	background-color: white;
+	min-height: 50vh;
+	padding-top: 0;
+	margin-top: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.content {
+	margin-left: 3vh;
+	margin-right: 3vh;
+	padding-bottom: 0;
+}
+.picture {
+	border-radius: 3%;
+	border: 4px black solid;
+	height: 30vh; 
+	width: 20vh;
+}
+.tab {
+	display: inline-block;
+	margin-left: 5%;
+}
+
+
+
+
+body {
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	/* CHANGE BACKGROUND IMAGE TO SOMETHING WE OWN */
+	background-color: white;
+	background-repeat: repeat-y;
+	background-size: cover;
+}
+header {
+	text-align: center;
+	font-family: Garamond;
+	font-size: 3vh;
+
+	border-top: 5px solid gold;
+	border-bottom: 5px solid gold;
+
+	padding: 5px;
+	background-color: #808080;
+}
+footer {
+
+	min-height: 10vh;
+	position: relative;
+
+	text-align: center;
+	font-family: Garamond;
+	font-size: 3vh;
+	color: black;
+
+	border-top: 5px solid gold;
+	background-color: #808080;
+	list-style-type: none;
+	padding: 2vh;
+}
+
+h1.content {
+	font-size: 8vh;
+}
+p.content {
+	font-size: 3vh;
+}
+
+h1.contact {
+	font-size: 5vh;
+}
+div.contact {
+	margin-top: 0;
+	font-size: 3vh;
+}
+h1 {
+	font-size: 375%;
+}
+hr {
+	text-align: center;
+	width: 50%;
+	border: 1px solid gold;
+}
+
+
+@keyframes scale {
+	100% {
+		font-size: 110%;
+	}
+}
