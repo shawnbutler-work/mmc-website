@@ -46,8 +46,8 @@ img#logo {
 .picture {
 	border-radius: 3%;
 	border: 4px black solid;
-	height: 30vh; 
-	width: 20vh;
+	height: 50vh; 
+	width: 40vh;
 }
 .tab {
 	display: inline-block;
