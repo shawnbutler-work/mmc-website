@@ -116,3 +116,17 @@ hr {
 	border: 1px solid gold;
 }
 
+table {
+	margin: 2.5%;
+	overflow-x:auto;
+	border: 1px solid black;
+
+}
+th { font-size: 1.25rem }
+
+td, th {
+	width: 1%;
+	text-align: center;
+	padding: 0.5%;
+	border: 1px solid black;
+}
