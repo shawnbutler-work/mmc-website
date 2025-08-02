@@ -1,220 +1,223 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magnolia Measurement & Compression - Contacts</title>
+  
+  <!-- Personal CSS -->
+  <style>
+    span.tab {
+      display: inline-block;
+      margin-left: 5%;
+    }
+    nav#background {
+      background: no-repeat auto;
+      background-image: url("pictures/concrete-background.jpg");
+    }
+  </style>
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <style>
+    /* Smooth slide-in effect for collapsing menu */
+    .navbar-collapse.collapse {
+      transition: height 0.35s ease;
+    }
+  </style>
+  <!-- -->
 
+</head>
+<body>
 
-		<title>Magnolia Measurement & Compression (MMC)</title>
-		<link rel="icon" type="image/x-icon" href="pictures/logo.png">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="background" style="border-bottom: gold solid 0.25vh;">
+    <!-- Bootstrap JS (needed for navbar toggling) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <div class="container-fluid">
+      <!-- Logo -->
+      <a class="navbar-brand" href="index.html" target="_blank">
+        <img src="pictures/logo.png" alt="Company Logo" height="40" class="d-inline-block align-text-top">
+        <span class="tab"></span>Magnolia Measurement & Compression
+      </a>
 
-    	<link rel="stylesheet" href="css/base.css">
-    	<link rel="stylesheet" href="css/contacts.css">
-	</head>
+      <!-- Hamburger Button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-	<body>
+      <!-- Collapsible Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" target="_blank">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="current_operations.html" target="_blank">Current Operations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html" target="_blank">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="data_centers.html" target="_blank">Data Centers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="environmental_services.html" target="_blank">Environmental Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html" target="_blank">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-		<header>
-			<div class="hamburger" onclick="toggleMenu()">
-		        <div class="bar"></div>
-		        <div class="bar"></div>
-		        <div class="bar"></div>
-		    </div>
+  <!-- Hero Section -->
+  <!-- Full-Width Hero Section -->
+  <section class="position-relative" style="width: 100vw; height: 50vh; overflow: hidden; margin: 0; padding: 0;">
+    <!-- Fullscreen Background Image -->
+    <img
+      src="pictures/bg.jpg"
+      alt="Hero Image"
+      class="position-absolute top-0 start-0 w-100 h-100"
+      style="object-fit: cover; z-index: 0;"
+    />
 
-		    <div class="menu">
-		        <a href="index.html" class="link">Home</a>
-		        <a href="current_operations.html" class="link">Current Operations</a>
-		        <a href="services.html" class="link">Services</a>
-		        <a href="equipment.html" class="link">Equipment</a>
-                <a href="data_centers.html" class="link">Data Centers</a>
-                <a href="environmental_services.html" class="link">Environmental Services</a>
-		        <a href="contacts.html" class="link">Contacts</a>
-		    </div>
-
-
-
-
-			<a href="index.html">
-				<img id="logo" src="pictures/logo.png" alt="logo">
-			</a>
-			<br/>
-			<div id="title">Magnolia Measurement & Compression</div>
-
-
-			
-
-			<br/>
-
-
-			
-
-
-
-		    <script>
-		        function toggleMenu() {
-		            var menu = document.querySelector('.menu');
-		            menu.classList.toggle('show');
-		        }
-		        window.onclick = function(event) {
-		            if (!event.target.matches('.hamburger') && !event.target.matches('.bar')) {
-		                var menu = document.querySelector('.menu');
-		                if (menu.classList.contains('show')) {
-		                    menu.classList.remove('show');
-		                }
-		            }
-		        }
-		    </script>
-		</header>
-
-
-
-		<div class="phrase">
-
-			<span style="margin:1%"></span>Our Commitment,<br/>
-			<span style="margin:1%"></span>Your Success
-
-		</div>
-
-
-		<!-- CONTENT -->
-
-		<div class="content-block">
-	        <br/>
-
-
-	        <!-- Jason Sharp's Contacts -->
-		    <section id="jason-sharp">
-		        <ul style="list-style: none;">
-		        	<li style="display: inline-block;">
-		        		<img src="pictures/jason-sharp.jpg" class="picture"/>
-		        	</li>
-		        	<li style="display: inline-block;">
-			        	<div class="contact">
-					        <h1 class="contact">
-					        	Jason Sharp
-					        </h1>
-			        		President<br/>
-			        		Email: <a href="mailto:jason@jsgateway.com" class="link">jason@jsgateway.com</a><br/>
-			        		Number: <a href="tel:+2708893435" class="link">(270) 889-3435</a> <br/><br/><br/>
-			        	</div>
-		        	</li>
-		        </ul>
-		    </section>
-
-
-
-	        <br/>
-	        <br/>
-	        <hr/>
-
-
-	        <!-- Jeff Delancey's Contacts -->
-	        <section id="jeff-delancey">
-		        <ul style="list-style: none;">
-		        	<li style="display: inline-block;">
-		        		<img src="pictures/jeff-delancey.jpg" class="picture"/>
-		        	</li>
-		        	<li style="display: inline-block;">
-			        	<div class="contact">
-					        <h1 class="contact">
-					        	Jeff Delancey
-					        </h1>
-			        		Vice President<br/>
-			        		Email: <a href="mailto:jeffdelancey@ymail.com" class="link">jeffdelancey@ymail.com</a><br/>
-			        		Number: <a href="tel:+6014410900" class="link">(601) 441-0900</a> <br/><br/><br/>
-			        	</div>
-		        	</li>
-		        </ul>
-	    	</section>
-
-
-
-	        <br/>
-	        <br/>
-	        <hr/>
-
-
-
-	        <!-- Jeni Butler's Contacts -->
-			<section id="jeni-butler">
-		        <ul style="list-style: none;">
-		        	<li style="display: inline-block;">
-		        		 <img src="pictures/jeni-butler.jpg" class="picture"/>
-		        	</li>
-		        	<li style="display: inline-block;">
-			        	<div class="contact">
-			        		<h1 class="contact">
-					        	Jeni Butler
-					        </h1>
-			        		Office Manager<br/>
-			        		Email: <a href="mailto:jeni.butler.as@gmail.com" class="link">jeni.butler.as@gmail.com</a><br/>
-			        		Number: <a href="tel:+6017318205" class="link">(601) 731-8205</a> <br/><br/><br/>
-			        	</div>
-		        	</li>
-		        </ul>
-	       	</section>
-
-
-
-	        <!-- spacing -->
-	        <br/>
-	        <br/>
-	        <hr/>
-
-
-
-	        <!-- Brian Stringer's Contacts -->
-	        <section id="brian-stringer">
-		        <ul style="list-style: none;">
-		        	<li style="display: inline-block;">
-		        		 <img src="pictures/brian-stringer.jpg" class="picture"/>
-		        	</li>
-		        	<li style="display: inline-block;">
-			        	<div class="contact">
-					        <h1 class="contact">
-					        	Brian Stringer
-					        </h1>
-			        		Senior Meter Technician<br/>
-			        		Email: <a href="mailto:bstringerpsi@gmail.com" class="link">bstringerpsi@gmail.com</a><br/>
-			        		Number: <a href="tel:+6014412705" class="link">(601) 441-2705</a> <br/><br/><br/>
-			        	</div>
-		        	</li>
-		        </ul>
-	       	</section>
+    <!-- Centered Text Content -->
+    <div class="position-absolute top-50 start-50 translate-middle text-center text-white px-3"
+         style="text-shadow: 0 2px 6px rgba(0,0,0,0.7); z-index: 1;">
+      <h1 class="display-4 fw-bold">Oilfield Done Right</h1>
+      <a href="services.html" class="btn btn-dark btn-lg mt-3">Our Services</a>
+    </div>
+  </section>
 
 
 
 
+  
+<style>
+	hr {
+		text-align: center;
+		border: 1px solid gold;
+	}
+	.link-gold {
+	  color: #d4af37;
+	  transition: color 0.3s ease;
+	  text-decoration: none;
+	}
 
-	       
-	        <br/>
-	        <br/>
-    	</div>
+	.link-gold:hover,
+	.link-gold:focus {
+	  color: gold; /* A lighter gold shade */
+	  text-decoration: underline;
+	}
+	.service-img {
+	  width: 100%;
+    height: 100%;
+	  object-fit: cover;
+	  border: 3px solid gold; 
+	  border-radius: 8px;      
+	  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+	  transition: transform 0.3s ease;
+	}
 
-		<!-- END OF CONTENT -->
+	.service-img:hover {
+	  transform: scale(1.05); 
+	}
+</style>
 
 
 
-		<footer>
-	        <div>
-	        	<lu>
-	        		<li>
-		            	&copy; 2023 Magnolia Measurement & Compression. All rights reserved.
-		        	</li>
+<!-- Services -->
+<div class="container mt-5">
 
-		        	<li>
-		            	Business Contact: <a class="footer-link link" href="mailto:jeffdelancey@ymail.com">jeffdelancey@ymail.com</a>
-		            </li>
+  <!-- Jason Sharp Start -->
+  <section id="jason-sharp" class="row align-items-center mb-5">
+    <div class="col-md-4">
+      <img src="pictures/jason-sharp.jpg" class="img-fluid service-img border rounded shadow" alt="Calibration Service">
+    </div>
+    <div class="col-md-8">
+      <h2>Jason Sharp</h2>
+      <strong>President</strong>
+      <ul class="list-unstyled">
+      	<li><a href="mailto:jason@jsgateway.com" class="link-gold">jason@jsgateway.com</a></li>
+        <li><a href="tel:+2708893435" class="link-gold">(270)889-3435</a></li>
+      </ul>
+    </div>
+  </section>
+  <hr/><br/>
+  <!-- Jason Sharp End -->
 
-		            <li>
-		            	Website Contact: <a class="footer-link link" href="mailto:shawnbutler.work@gmail.com">shawnbutler.work@gmail.com</a>
-		            </li>
 
-	        	</lu>
-	        </div>
-	    </footer>
-	</body>
+  <!-- Jeff Delancey Start -->
+  <section id="jeff-delancey" class="row align-items-center mb-5">
+    <div class="col-md-4">
+      <img src="pictures/jeff-delancey.jpg" class="img-fluid service-img border rounded shadow" alt="Calibration Service">
+    </div>
+    <div class="col-md-8">
+      <h2>Jeff DeLancey</h2>
+      <strong>Vice President</strong>
+      <ul class="list-unstyled">
+      	<li><a href="mailto:jeffdelancey@ymail.com" class="link-gold">jeffdelancey@ymail.com</a></li>
+        <li><a href="tel:+6014410900" class="link-gold">(601)441-0900</a></li>
+      </ul>
+    </div>
+  </section>
+  <hr/><br/>
+  <!-- Jeff Delancey End -->
 
+
+  <!-- Jeni Butler Start -->
+  <section id="jeni-butler" class="row align-items-center mb-5">
+    <div class="col-md-4">
+      <img src="pictures/jeni-butler.jpg" class="img-fluid service-img border rounded shadow" alt="Calibration Service">
+    </div>
+    <div class="col-md-8">
+      <h2>Jeni Butler</h2>
+      <strong>Office Manager</strong>
+      <ul class="list-unstyled">
+      	<li><a href="mailto:jeni.butler.as@gmail.com" class="link-gold">jeni.butler.as@gmail.com</a></li>
+        <li><a href="tel:+6017318205" class="link-gold">(601)731-8205</a></li>
+      </ul>
+    </div>
+  </section>
+  <hr/><br/>
+  <!-- Jeni Butler End -->
+
+
+  <!-- Brian Stringer Start -->
+  <section id="brian-stringer" class="row align-items-center mb-5">
+    <div class="col-md-4">
+      <img src="pictures/brian-stringer.jpg" class="img-fluid service-img border rounded shadow" alt="Calibration Service">
+    </div>
+    <div class="col-md-8">
+      <h2>Brian Stringer</h2>
+      <strong>Senior Meter Technician</strong>
+      <ul class="list-unstyled">
+      	<li><a href="mailto:bstringerpsi@gmail.com" class="link-gold">bstringerpsi@gmail.com</a></li>
+        <li><a href="tel:+6014412705" class="link-gold">(601)441-2705</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Brian Stringer End -->
+</div>
+
+
+<br/>
+<br/>
+
+
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <hr class="border-light my-3" />
+      <div class="text-center small">
+        &copy; 2025 Magnolia Measurement & Compression. All rights reserved.
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
